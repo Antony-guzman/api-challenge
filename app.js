@@ -3,8 +3,8 @@
 const APIController = (function() {
     console.log('currently working')
     
-    const clientId = '26be3969481242fd8b9085255606c179';
-    const clientSecret = '6916842be3ef4efdb24001ec75140ef6';
+    const clientId = 'public key';
+    const clientSecret = 'secret key';
 
     // private methods
     const _getToken = async () => {
@@ -49,7 +49,7 @@ const APIController = (function() {
 
 const API2Controller = (function() {
     const _getLyrics = async (song,title) => {
-        const apikey = 'f23051afc2a43875cc1aed9f296356f9'; 
+        const apikey = 'api key'; 
         //https://api.musixmatch.com/ws/1.1/matcher.lyrics.get?format=jsonp&callback=callback&q_track=spring%20day&q_artist=bts&apikey=f23051afc2a43875cc1aed9f296356f9
         const result = await fetch('https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/matcher.lyrics.get?q_track=' + song + '&q_artist=' + title +'&apikey='+ apikey, {
             method: 'GET',
