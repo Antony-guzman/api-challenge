@@ -3,7 +3,7 @@
 const APIController = (function() {
     console.log('currently working')
     
-    const clientId = 'public key';
+    const clientId = 'public id';
     const clientSecret = 'secret key';
 
     // private methods

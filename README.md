@@ -1,8 +1,7 @@
 API-challenge
 
-*just go the site to see the website*
-
-[deployed url](http://antony-personal-22.surge.sh/)
+## How to use:
+You'll need to copy the code locally and put in your Spotify public id and secret key and musixmatch apikey to use. 
 
 
 ## Process
