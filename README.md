@@ -1,7 +1,7 @@
 API-challenge
 
 ## How to use:
-You'll need to copy the code locally and put in your Spotify public id and secret key and musixmatch apikey to use. 
+You'll need to copy the code locally and put in your Spotify public id and secret key and musixmatch apikey to use (in the app.js). 
 
 
 ## Process
